@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(275, 100%, 97%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  margin: 150px auto;
+  max-width: 545px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.container .title {
+  display: flex;
+  margin: 20px;
+}
+
+.container .title h1 {
+  font-size: 42px;
+  padding-left: 20px;
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+}
+.container h4 {
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+
+}
+
+.container p {
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+}
+
+.container .text {
+  letter-spacing: 0.2px;
+  word-spacing: 0.5px;
+  padding: 5px;
+  margin-bottom: 40px;
+  display: none;
+}
+
+.container .text span {
+  text-decoration: spacing 3px;
+}
+
+.container .text.activeText {
+  display: block;
+}
+.container .articles {
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.container .articles h4:hover {
+  color: purple;
+}
+
+.container .articles .openButton {
+  border: none;
+  margin-left: auto;
+}
+
+.container .articles .text{
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.container .articles .img-container.active {
+  display: block;
+  float: 0 0 auto;
+  margin-left: auto;
+}
+
+.container .articles .img-container {
+  display: none;
+}
+.container .articles .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
